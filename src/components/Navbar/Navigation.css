@@ -1,0 +1,29 @@
+.logo-img {
+  width: 30px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.navigation-bar {
+  background-color: rgb(1, 2, 46);
+  opacity: 0.9;
+}
+.navigation-bar ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+}
+.navigation-bar ul li:hover {
+  background-color: rgb(25, 26, 92);
+}
+.navigation-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.navigation-bar ul {
+  display: inline-block;
+}
+.nav-list {
+  margin: 0;
+}
