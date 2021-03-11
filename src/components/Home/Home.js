@@ -15,11 +15,11 @@ const Home = () => {
 
   return (
     <div>
-      <Container>
+      <Container className="py-4">
         <Row>
-          {leaguesData.map((item) => (
+          {leaguesData.map((item, ind) => (
             //   <LeagueItem></LeagueItem>
-            <LeagueItem />
+            <LeagueItem league={item} key={item.idLeague} image={ind % 9} />
           ))}
         </Row>
       </Container>

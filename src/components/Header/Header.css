@@ -1,10 +1,20 @@
 #header {
   height: 400px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.767)), url(../../image/banner.jpg);
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.767)), url(../../image/banner.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   position: relative;
+}
+#header__banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+#header__banner img {
+  height: 100%;
+  overflow: hidden;
 }
 
 #primary-heading {

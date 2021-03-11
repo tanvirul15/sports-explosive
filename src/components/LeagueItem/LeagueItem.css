@@ -8,3 +8,6 @@
   height: 100px;
   width: 100px;
 }
+#league__item img {
+  image-rendering: pixelated;
+}
