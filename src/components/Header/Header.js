@@ -1,8 +1,13 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
-  return <div id="header"></div>;
+const Header = (props) => {
+  return (
+    <div id='header'>
+      {props.heading && <h1 id='primary-heading'>Sports Explosive</h1>}
+      {props.logo && <img id='heading__image' src={require(`../../image/image-8.png`).default} alt='Logo' />}
+    </div>
+  );
 };
 
 export default Header;
