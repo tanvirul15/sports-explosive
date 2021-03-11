@@ -6,21 +6,22 @@ import "./LeagueItem.css";
 const LeagueItem = (props) => {
   const { idLeague, strLeague, strSport } = props.league;
   const imgUrl = `../../image/logo/image-${props.image}.png`;
-  // const currentPath = useRouteMatch();
+  const { url } = useRouteMatch();
   // console.log(currentPath);
   return (
-    <Col sm="4">
-      <Router>
+    <Router>
+      <Col sm="4">
         <div id="league__item">
           <img src={require(`../../image/logo/image-${props.image}.png`).default} alt="" />
           <h5>{strLeague}</h5>
           <h6> {strSport}</h6>
-          <Link to={"/league/"}>
-            <Button>Explore</Button>
-          </Link>
+
+          <a className="btn btn-primary" href="/about">
+            About Us
+          </a>
         </div>
-      </Router>
-    </Col>
+      </Col>
+    </Router>
   );
 };
 
