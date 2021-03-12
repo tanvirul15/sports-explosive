@@ -1,5 +1,5 @@
 #header {
-  height: 400px;
+  /* height: 400px; */
   /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.767)), url(../../image/banner.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -7,14 +7,15 @@
   position: relative;
 }
 #header__banner {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   height: 100%;
 }
 #header__banner img {
+  width: 100%;
   height: 100%;
-  overflow: hidden;
+  image-rendering: pixelated;
 }
 
 #primary-heading {

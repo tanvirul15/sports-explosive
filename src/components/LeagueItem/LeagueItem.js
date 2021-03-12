@@ -10,13 +10,13 @@ const LeagueItem = (props) => {
   // console.log(currentPath);
   return (
     <Router>
-      <Col sm="4">
-        <div id="league__item">
-          <img src={require(`../../image/logo/image-${props.image}.png`).default} alt="" />
+      <Col sm='4'>
+        <div id='league__item'>
+          <img src={require(`../../image/logo/image-${props.image}.png`).default} alt='' />
           <h5>{strLeague}</h5>
           <h6> {strSport}</h6>
 
-          <a className="btn btn-primary" href="/about">
+          <a className='btn btn-primary' href={"/league/" + idLeague}>
             About Us
           </a>
         </div>

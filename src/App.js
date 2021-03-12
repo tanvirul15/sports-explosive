@@ -7,18 +7,19 @@ import Navbar from "./components/Navbar/Navigation";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Navigation from "./components/Navbar/Navigation";
+import LeagueItem from "./components/LeagueItem/LeagueItem";
 
 function App() {
   return (
     <Router>
       <Navigation></Navigation>
       <Switch>
-        <Route exact path="/">
+        <Route exact path='/'>
           <Header />
           <Home />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path='/league/:leagueID'>
+          <LeagueDetails />
         </Route>
       </Switch>
     </Router>
