@@ -1,5 +1,5 @@
 # Sports Explosive
-## Sports Explosive is a fun apps with react and API.You can  check details of a football club, and find there information.
+## Sports Explosive is a fun app with react and API. You can check the details of a football club, and find their information.
 1. You can see all the football club list.
 2. You can get detailed information of a football club.
 
